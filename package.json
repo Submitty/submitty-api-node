@@ -1,0 +1,35 @@
+{
+  "name": "submitty-api-node",
+  "version": "0.0.0",
+  "description": "A node.js client for accessing the Submitty API",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "watch": "tsc -w",
+    "lint": "eslint src/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Submitty/submitty-api-node.git"
+  },
+  "author": "Matthew Peveler <pevelm@rpi.edu>",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/Submitty/submitty-api-node/issues"
+  },
+  "homepage": "https://github.com/Submitty/submitty-api-node#readme",
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "dependencies": {
+    "@types/node": "^10.14.19",
+    "axios": "^0.19.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.3.2",
+    "@typescript-eslint/parser": "^2.3.2",
+    "eslint": "^6.5.1",
+    "typescript": "^3.6.3"
+  }
+}
