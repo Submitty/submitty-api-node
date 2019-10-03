@@ -4,6 +4,15 @@ A node.js client for interacting with the Submitty API
 
 Please see the [API Docs](https://api.submitty.org) for more information.
 
+## Developing
+
+```shell
+git clone https://github.com/Submitty/submitty-api-node
+cd submitty-api-node
+npm install
+npm run build
+```
+
 ## Usage
 
 ```javascript
